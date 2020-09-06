@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container p {
+  color: black;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(http://hitsusya.com/wp-content/uploads/2018/02/rtethjdyrsetgshf_TP_V.jpg);
+  background-size: cover;
+  color: yellow;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position: fixed;
+  top: 0;
+  /* z-indexを10に指定してください */
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  margin-top: -33px;
+}
+
+.header-left {
+  float: left;
+}
+
+nav ul {
+  display: table;
+  margin: 10 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+}
+nav ul li {
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid #ccc;
+}
+nav ul li:first-child {
+  border-left: 1px solid #ccc;
+}
+nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #aaa;
+}
+nav ul li a:hover {
+  background-color: #f8e750;
+  border-bottom: 5px solid #f8e750;
+}
+nav ul li.current {
+  font-weight: bold;
+}
+nav ul li.current a {
+  border-bottom: 5px solid #00b0f0;
+  color: #00b0f0;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+.youtube-icon img {
+  align: center;
+  width: 50%;
+  height: 50%;
+}
+.twitter-icon img {
+  align: center;
+  width: 50%;
+  height: 50%;
+}
+.book-icon img {
+  align: center;
+  width: 75%;
+  height: 100%;
+}
+.mybook-icon img {
+  align: center;
+  width: 90%;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.heading p {
+  text-align: left;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
